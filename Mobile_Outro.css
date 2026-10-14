@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: 'kindergarten';
+    font-family: 'kindergarten.tff';
     background-image: url('Images/waterbackground.png');
     background-size: cover;
     background-position: center;
@@ -10,39 +10,12 @@ body {
 /* Fonts */
 
 @font-face {
-    font-family: 'highway_gothic.normal';
-    src: url('Fonts/HWYGOTH.TTF') format('woff');
+    font-family: 'kindergarten';
+    src: url('kindergarten.ttf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'highway_gothic.wide';
-    src: url('Fonts/HWYGEXPD.TTF') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'highway_gothic.wider';
-    src: url('Fonts/HWYGEXPD.TTF') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'highway_gothic.skinny';
-    src: url('Fonts/HWYGNRRW.TTF') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'highway_gothic.skinnier';
-    src: url('Fonts/HWYGWDE.TTF') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 
 /* NAVBAR */
@@ -154,13 +127,12 @@ body {
 .clickable-area {
     cursor: pointer;
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
 }
 
 .fade-image,
 .fade-text {
-    position: absolute;
     justify-content: center;
     align-items: center;
     display: flex;
