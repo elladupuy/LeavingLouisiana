@@ -168,8 +168,7 @@ body {
     margin: 100px 0px 0px 50px;
     border-radius: 15px;
     height: auto;
-    max-width: 50%;
-    max-height: 50%;
+    max-width: 600px;
     transition: opacity 0.5s ease-in-out;
     /* Smooth transition */
 }
@@ -177,8 +176,7 @@ body {
 .fade-text {
     width: 80%;
         height: auto;
-        max-width: 50%;
-        max-height: 50%;
+        max-width: 600px;
     opacity: 0;
     /* Hidden by default */
     display: flex;
